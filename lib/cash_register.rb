@@ -8,6 +8,5 @@ end
 
 def self.add_item(item, price)
   @total + item 
-
 end
 end
