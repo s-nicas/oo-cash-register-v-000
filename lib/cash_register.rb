@@ -6,7 +6,7 @@ def initialize(total=0, discount = 0)
   @discount = discount
 end
 
-def self.add_item(item, price)
-  @total + item 
+def add_item(item, price)
+  @total + item
 end
 end
