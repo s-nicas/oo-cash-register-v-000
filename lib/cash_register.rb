@@ -5,6 +5,7 @@ def initialize(discount = 0)
   @total = 0
   @discount = discount
   @items = []
+  @transaction_tracker = []
 end
 
 def add_item(item, price, quantity = 1)
@@ -31,5 +32,5 @@ def items
 end
 
 def void_last_transaction
-end 
+end
 end
