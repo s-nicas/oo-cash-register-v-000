@@ -1,2 +1,4 @@
 class Cash_Register 
-def initialize
+def initialize(total, employee_discount = 0)
+  
+end 
