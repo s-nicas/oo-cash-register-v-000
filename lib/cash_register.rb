@@ -12,6 +12,7 @@ def add_item(item, price, quantity = 1)
   @total = @total + total_price
   quantity.each{|grocery_item|
   @items << grocery_item}
+
 end
 
 def apply_discount
