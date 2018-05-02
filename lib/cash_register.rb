@@ -25,7 +25,8 @@ end
 def items
   @items = []
 @itmes << add_item.item
-end 
+@items 
+end
 
 end
 end
