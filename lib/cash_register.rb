@@ -16,7 +16,7 @@ def apply_discount
   discount_amount =  @total / @discount
   @total = @total - discount_amount
   end
- "After the discount, the total comes to #{@total}."
+ "After the discount, the total comes to $#{@total}."
 end
 
 
