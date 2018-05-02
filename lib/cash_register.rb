@@ -35,4 +35,5 @@ end
 def void_last_transaction
   @transaction_tracker.pop
 end
+
 end
