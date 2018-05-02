@@ -16,8 +16,11 @@ def apply_discount
     discount_percent = Float(@discount) / 100
   discount_amount =  @total * discount_percent
   @total = @total - Integer(discount_amount)
+  "After the discount, the total comes to $#{@total}."
+else
+  "There is no discount to apply."
   end
- "After the discount, the total comes to $#{@total}."
+
 end
 
 
