@@ -8,6 +8,6 @@ end
 
 def add_item(item, price, quantity = 1)
   total_price = price * quantity
-  @total = @total + price
+  @total = @total + total_price
 end
 end
