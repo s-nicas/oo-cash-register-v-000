@@ -9,7 +9,7 @@ end
 def add_item(item, price, quantity = 1)
   total_price = price * quantity
   @total = @total + total_price
-  @items << item
+  @items=.push(item)
 end
 
 def apply_discount
@@ -25,7 +25,7 @@ end
 
 def items
   @items = []
-  @items 
+  @items
 end
 
 end
