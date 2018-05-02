@@ -10,4 +10,10 @@ def add_item(item, price, quantity = 1)
   total_price = price * quantity
   @total = @total + total_price
 end
+
+def apply_discount
+  if discount>0
+    
+
+end
 end
