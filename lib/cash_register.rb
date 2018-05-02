@@ -10,9 +10,9 @@ end
 def add_item(item, price, quantity = 1)
   total_price = price * quantity
   @total = @total + total_price
- quantity.times do |i|
+ quantity.times do 
   @items << item
-  end 
+  end
 end
 
 def apply_discount
