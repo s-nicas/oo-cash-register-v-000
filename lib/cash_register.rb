@@ -34,8 +34,8 @@ end
 
 def void_last_transaction
   amount_to_void = @transaction_tracker.pop
-  @total - amount_to_void
-  
+  @total = @total - amount_to_void
+
 end
 
 end
