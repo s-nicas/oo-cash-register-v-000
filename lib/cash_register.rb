@@ -13,7 +13,9 @@ end
 
 def apply_discount
   if discount > 0
-end 
+  discount_amount =  @total * discount 
+  @total = @total - discount_amount 
+  end 
 
 end
 end
