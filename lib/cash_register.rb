@@ -10,9 +10,8 @@ end
 def add_item(item, price, quantity = 1)
   total_price = price * quantity
   @total = @total + total_price
-  quantity.each{|grocery_item|
-  @items << grocery_item}
-
+ quantity.times do |i|
+  @items << item 
 end
 
 def apply_discount
